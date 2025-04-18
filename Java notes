@@ -1,5 +1,8 @@
 1. JAVA CLASS loading
-   LVM loads .class files
+   JVM loads .class files
+   CLASS will be loaded when using new to create an object of a specific CLASS, accessing static member of specific CLASS or accessing subCLASS
    loading file into memory
-   linking : allocate memory for Class Varables 
+   linking : allocate memory for Class Varables and translate symbolic reference to memory address
    initialization : call construction function
+2. JAVA CLASS unloading
+   JVM executes CLASS unloading automatically when it is unused
