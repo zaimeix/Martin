@@ -1,2 +1,5 @@
 1. JAVA CLASS loading
    LVM loads .class files
+   loading file into memory
+   linking : allocate memory for Class Varables 
+   initialization : call construction function
