@@ -6,3 +6,9 @@
    initialization : call construction function
 2. JAVA CLASS unloading
    JVM executes CLASS unloading automatically when it is unused
+3. variables
+   local : located in stack. JVM will recycle this type of variables
+   object : located in heap. belongs to diffent instantiated objects of a CLASS
+            every object has a copy of this variable
+   class/static : located in static memory space. belongs to class and has same life span as the whole programe.
+
