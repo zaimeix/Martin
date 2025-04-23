@@ -10,5 +10,8 @@
    local : located in stack. JVM will recycle this type of variables
    object : located in heap. belongs to diffent instantiated objects of a CLASS
             every object has a copy of this variable
-   class/static : located in static memory space. belongs to class and has same life span as the whole programe.
+   class/static : located in shared static memory space. belongs to class and has same life span as the whole programe.
+4. methods/functions
+   static : like static variables, located in shared static memory space. belongs to CLASS but not an instatant of a CLASS.
+            this kind of function can only use static variables and static methods of the CLASS
 
